@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<?php
+/*
+		
+if ($_COOKIE['loginset'] == 1 && !empty($_COOKIE['pass']) ){
+ 
+        $pass=$_COOKIE['pass'];   
+    $connectionn = new mysqli("localhost","u471974205_livesystem","1bf#xLyAvD#","u471974205_livesystem");
+
+
+          		$sqlL = "SELECT * FROM workshop_c2 WHERE pass='$pass'";
+
+		$resulTt = mysqli_query($connectionn, $sqlL);
+			$roWw = mysqli_fetch_assoc($resulTt);
+    
+        if($roWw['permission'] === 1){
+               	header("Location:pdf.php?id=$pass");
+		       exit();  
+		     
+		   
+         }
+    
+       
+    }
+    */
+?>
+<html lang="en">
+<head>
+	<title> Thank you </title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/mtn_.png"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+<style>
+#myDIV {
+  height:200px; 
+  border: 10px dashed black;
+  padding: 25px;
+  background-attachment: fixed;
+  background-position: center; }
+
+    @media (max-width: 430px) {
+        .wrap-login100{
+            width:90%;
+        }
+    }
+</style>
+
+
+</head>
+<body>
+	
+	<div class="limiter">
+		<div class="container-login100">
+		    
+
+		    
+			<div class="wrap-login100" style='top: 2%;        transform: translate(0px, 35vh); width: initial;'>
+				
+				
+					
+				
+						<span class="login100-form-title p-b-34 " style="    padding-top: 25px;">
+							Thank you 
+					</span>
+						<h4 class=" ">
+						You already signed up in our system , Do not try to sign up again please and go back to mtn support team 
+					</h4>
+					</div>
+					</div>
+					</div>
+	
+
+	<div id="dropDownSelect1"></div>
+	
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+	
+	<script>
+	    
+	   
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+      textarea {
+        resize: none;
+        outline: none;
+      }
+      #live {
+        height: 40%;
+      }
+      #chat {
+        height: 60%;
+      }
+      #comments-section {
+        height: 315px;
+      }
+      @media (min-width: 768px) {
+        #live,
+        #chat {
+          height: 100%;
+        }
+        #comments-section {
+          height: 100%;
+        }
+      }

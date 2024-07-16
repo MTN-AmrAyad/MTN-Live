@@ -1,0 +1,65 @@
+#main-container {
+  height: 660px;
+  overflow-y: scroll;
+   background: #ededed;
+}
+#certificate-card {
+  width: 25%;
+  border-radius: 30px;
+}
+@media only screen and (max-width: 690px) {
+  #certificate-card {
+    width: 50%;
+  }
+
+}
+@media only screen and (max-width: 448px) {
+  #certificate-card {
+    width: 100%;
+  }
+    #main-container {
+      height:fit-content;
+  
+}
+}
+#main-container {
+  height: 660px;
+  overflow: hidden;
+}
+#cards-container {
+  overflow: auto;
+}
+#certificate-card {
+  width: 250px;
+  border-radius: 30px;
+}
+
+#certificate-input-card-container {
+  width: 50%;
+}
+
+#certificate-input-card {
+  border-radius: 30px;
+}
+@media only screen and (max-width: 690px) {
+  #cards-container {
+    overflow-y: auto;
+  }
+  #certificate-card {
+    width: 50%;
+  }
+  #certificate-input-card-container {
+    width: 100%;
+  }
+  #main-container {
+    height: fit-content;
+  }
+}
+@media only screen and (max-width: 448px) {
+  #certificate-card {
+    width: 100%;
+  }
+  #main-container {
+    height: fit-content;
+  }
+}

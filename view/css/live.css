@@ -1,0 +1,16 @@
+a:hover{
+   text-decoration: none;
+}
+#main-container {
+  /*background: #ededed;*/
+  background: #fff;
+}
+
+#join-meeting-card {
+  height: 20rem;
+  border-radius: 30px;
+}
+#join-meeting-btn {
+  background: #0f1e5a;
+  border-radius: 10px;
+}
